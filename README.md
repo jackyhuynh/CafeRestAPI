@@ -87,7 +87,7 @@
 `PATCH /update-price/id?new_price=£2.80`
 **Response**
 - `200 OK` on success
-<img src="">
+<img src="https://github.com/jackyhuynh/cafe_restful_api/blob/main/images/modify_cafe.JPG">
 
 
 ## Technology
