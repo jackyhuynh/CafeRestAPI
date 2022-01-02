@@ -78,7 +78,8 @@
 ### Add a new coffee shop:
 `POST /add`
 - Using postman, choose POST methods, and x-www-form as the picture
-[img](https://github.com/jackyhuynh/cafe_restful_api/blob/main/images/add_cafe.JPG)
+<img src="https://github.com/jackyhuynh/cafe_restful_api/blob/main/images/add_cafe.JPG">
+
 ## Technology
 List of technology
 - Python
