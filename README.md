@@ -55,7 +55,7 @@
 ```
 - Get all the coffee shops in the database
 
-### Find a cafe bas on location:
+### Find a coffee shop base on location:
 `GET /search?loc=Shoreditch`
 **Response**
 - `200 OK` on success
@@ -75,7 +75,7 @@
       "seats": "10-20"
     }
 ```
-### Add a new coffee shop:
+### Add a new coffee shop to the database:
 `POST /add`
 - Using postman, choose POST methods, and x-www-form as the picture
 <img src="https://github.com/jackyhuynh/cafe_restful_api/blob/main/images/add_cafe.JPG">
@@ -84,9 +84,11 @@
 - `200 OK` on success
 
 ### Change price of a coffee shop with id:
-`PATCH /update-price`
+`PATCH /update-price/id?new_price=£2.80`
 **Response**
 - `200 OK` on success
+<img src="">
+
 
 ## Technology
 List of technology
