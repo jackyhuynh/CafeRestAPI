@@ -77,7 +77,8 @@
 ```
 ### Add a new coffee shop:
 `POST /add`
-- Using postman and add 
+- Using postman, choose POST methods, and x-www-form as the picture
+[img]()
 ## Technology
 List of technology
 - Python
