@@ -77,16 +77,21 @@
 ```
 ### Add a new coffee shop to the database:
 `POST /add`
-- Using postman, choose POST methods, and x-www-form as the picture
-<img src="https://github.com/jackyhuynh/cafe_restful_api/blob/main/images/add_cafe.JPG">
-- data will add to the database
 **Response**
 - `200 OK` on success
+- Using postman, choose POST methods, and x-www-form as the picture
+- data will add to the database
+
+
+<img src="https://github.com/jackyhuynh/cafe_restful_api/blob/main/images/add_cafe.JPG">
 
 ### Change price of a coffee shop with id:
 `PATCH /update-price/id?new_price=£2.80`
 **Response**
 - `200 OK` on success
+- Use Postman, choose PATCH methods, choose Param
+- data will be modified with id
+
 <img src="https://github.com/jackyhuynh/cafe_restful_api/blob/main/images/modify_cafe.JPG">
 
 
