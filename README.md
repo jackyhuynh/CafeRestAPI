@@ -79,6 +79,14 @@
 `POST /add`
 - Using postman, choose POST methods, and x-www-form as the picture
 <img src="https://github.com/jackyhuynh/cafe_restful_api/blob/main/images/add_cafe.JPG">
+- data will add to the database
+**Response**
+- `200 OK` on success
+
+### Change price of a coffee shop with id:
+`PATCH /update-price`
+**Response**
+- `200 OK` on success
 
 ## Technology
 List of technology
