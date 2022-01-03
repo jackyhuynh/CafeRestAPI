@@ -96,6 +96,12 @@
 
 ### Delete a coffee shop with API-Key:
 `DELETE /report-closed/id?api-key=TopSecretAPIKey`
+**Response**
+- `200 OK` on success
+- Use Postman, choose PATCH methods, choose Param
+- data will be modified with id
+
+<img src="https://github.com/jackyhuynh/cafe_restful_api/blob/main/images/delete_cafe.JPG">
 
 ## Technology
 List of technology
