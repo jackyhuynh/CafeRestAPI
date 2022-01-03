@@ -86,7 +86,7 @@
 <img src="https://github.com/jackyhuynh/cafe_restful_api/blob/main/images/add_cafe.JPG">
 
 ### Change price of a coffee shop with id:
-`PATCH /update-price/id?new_price=£2.80`
+`PATCH /update-price/id?new_price=£9999`
 **Response**
 - `200 OK` on success
 - Use Postman, choose PATCH methods, choose Param
@@ -94,6 +94,8 @@
 
 <img src="https://github.com/jackyhuynh/cafe_restful_api/blob/main/images/modify_cafe.JPG">
 
+### Delete a coffee shop with API-Key:
+`DELETE /report-closed/id?api-key=TopSecretAPIKey`
 
 ## Technology
 List of technology
